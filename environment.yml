@@ -1,0 +1,9 @@
+name: yuque-intelligence-search
+
+channels:
+  - conda-forge          # 优先使用 conda-forge（包更新更快、更全）
+  - defaults
+
+dependencies:
+  - python=3.10            # 你当前使用的 Python 版本，固定住避免意外升级
+  - requests
